@@ -19,8 +19,11 @@ and then returns the generated result.
 ---
 
 ## 🛠 Installation
+### Option 1
+Get the pipe from Open WebUI [N8N AI Agent Connector Pipe](https://openwebui.com/f/colinwheeler/n8n_ai_agent_connector_pipe)
+### Option 2
 1. Copy the code from (`N8N_AI_Agent_Connector.openwebui.py`) into your new function window in the Open WebUI UI (Admin Panel-Functions) and save it.
-3. In the Open WebUI UI, configure the pipe valves:
+2. In the Open WebUI UI, configure the pipe valves:
    - `SERVER_ADDRESS`: e.g. `http://n8n:5678`
    - `WEBHOOK_PATH`: your n8n webhook ID
    - `WEBHOOK_ENV`: `production` or `test`
@@ -32,17 +35,16 @@ and then returns the generated result.
 ---
 
 ## ⚙️ n8n Setup
+An example workflow is provided in the file openwebui-n8n-pipe.json
 1. Create a workflow with a **Webhook (Trigger)** node and an **AI Agent** node.
 2. End with a **Respond to Webhook** node set to *“Respond with first item”*.
 3. The pipe expects the response shape:
-
 ```json
 {
   "output": "Hello world",
   "intermediateSteps": []
 }
 ```
-An example workflow is provided in the file openwebui-n8n-pipe.json
 ---
 
 ## 📌 Versioning
@@ -56,6 +58,7 @@ An example workflow is provided in the file openwebui-n8n-pipe.json
 
 ## 📂 Repository
 - GitHub: [House-of-Data/openwebui-n8n-pipe](https://github.com/House-of-Data/openwebui-n8n-pipe)
+- Open WebUI: [N8N AI Agent Connector Pipe](https://openwebui.com/f/colinwheeler/n8n_ai_agent_connector_pipe)
 
 ---
 
