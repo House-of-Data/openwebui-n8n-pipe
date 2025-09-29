@@ -42,7 +42,7 @@ and then returns the generated result.
   "intermediateSteps": []
 }
 ```
-
+An example workflow is provided in the file openwebui-n8n-pipe.json
 ---
 
 ## 📌 Versioning
