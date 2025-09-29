@@ -19,8 +19,7 @@ and then returns the generated result.
 ---
 
 ## 🛠 Installation
-1. Copy the Python file (`N8N_AI_Agent_Connector.py`) into your Open WebUI `functions` directory (or upload through the UI).
-2. Restart or reload Open WebUI.
+1. Copy the code from (`N8N_AI_Agent_Connector.openwebui.py`) into your new function window in the Open WebUI UI (Admin Panel-Functions) and save it.
 3. In the Open WebUI UI, configure the pipe valves:
    - `SERVER_ADDRESS`: e.g. `http://n8n:5678`
    - `WEBHOOK_PATH`: your n8n webhook ID
